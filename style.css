@@ -1,0 +1,379 @@
+* {
+    margin: 0%;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+}
+
+body {
+    height: 100svh;
+    max-width: 100svw;
+
+    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family:gromn; */
+}
+
+.home {
+    font-family: "Cormorant Garamond", serif;
+    background-image: url(download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    color: #F7F4EF;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background-color: #afa39933;
+    border-radius: 50%;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+.h1 h1 {
+    font-size: 56px;
+    width: 70%;
+    text-align: center;
+}
+
+.home .btns {
+    display: flex;
+    gap: 10px;
+}
+
+.home .btns a {
+    padding: 5px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #59493c;
+    color: white;
+    text-decoration: none;
+}
+
+.log_in {
+    border: 1px solid #3e3127;
+    background-color: #3e3127;
+}
+
+.sign_up {
+    border: 1px solid #afa399;
+
+    background-color: #afa399;
+}
+
+.home .btns a:hover {
+    scale: 1.1;
+    margin: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+.logInHome {
+    color: #59493c;
+    display: flex;
+    padding: 20px;
+    /* gap: 10%; */
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #CEC8BF;
+}
+
+.logInHome .pic {
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.logInHome .pic img {
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px #92877796;
+
+
+}
+
+.formSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 30%;
+    gap: 25px;
+}
+
+.logInForm {
+    font-size: 46px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.filed1,
+.filed2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #928777;
+    margin-top: 7px;
+}
+
+.filed1 input {
+    background-color: #afa39900;
+    border: 0px;
+}
+
+/* .filed2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    background-color: #928777;
+} */
+
+.filed2 input {
+    background-color: #afa39900;
+    border: 0px;
+}
+
+.logInbtn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #3e3127;
+    border: 1px solid #3e3127;
+    color: #b9b1a6;
+    box-shadow: 0px 0px 10px #928777;
+
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.557);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* shaimaa ahmed -------------------------------- */
+.products {
+    background-color: #EFE8DD;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    padding: 50px;
+    justify-content: center;
+
+
+}
+
+h1 {
+
+    color: #462c16;
+    font-weight: bold;
+    padding: 15px;
+}
+
+h1:hover {
+    color: #462c1688;
+}
+
+.c {
+    width: 100%;
+    height: 220px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.711);
+    border-radius: 12px;
+    flex-direction: column;
+}
+
+.layout {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 35, 11, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+}
+
+.c:hover .layout {
+    opacity: 1;
+}
+
+.c img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cart {
+    background-color: #462c16;
+    color: #EFE8DD;
+    border-radius: 25px;
+    width: 35%;
+    padding: 4px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(255, 222, 173, 0.414);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    background-color: #d1c2a8a5;
+    justify-content: center;
+    text-align: center;
+    padding: 5%;
+    gap: 5px
+}
+
+.Learn {
+    background-color: #d1c2a800;
+    color: black;
+    border: 1px solid #403e2d74;
+    width: 20%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.564);
+    transition: .5s;
+    border-radius: 8px;
+
+
+}
+
+.Learn:hover {
+    box-shadow: 2px 1px 10px #8f895a92
+}
+
+.imm {
+    width: 50%;
+    height: 50%;
+    background-color: #d1c2a8a5;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.564);
+    transition: .5s;
+}
+
+.par {
+    transition: .5s;
+    border-radius: 20px;
+}
+
+.par:hover {
+    box-shadow: 0px 1px 10px #403e2d92;
+}
+
+
+.h {
+    font-weight: bold;
+    color: #403E2D;
+}
+
+p {
+    color: #403E2D;
+}
+
+.card-body {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* yara mostafa */
+.card-bod {
+    background-color: #dacfbb;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.text-light-custom {
+    color:#3e3127 ;
+    font-size: 1.70rem;
+}
+
+.btn-custom {
+    background-color: #e1d8c7;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 15px;
+    font-size: 0.95rem;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s ease;
+
+}
+
+
+.custom-img{
+    max-width: 70%; 
+    margin: 0 auto;
+    display: block;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+
+footer{
+    font-family: Cormorant ,Garamond;
+   background-color:#564433;
+   color: aliceblue;
+   text-align: center;
+   padding: 25PX;
+}

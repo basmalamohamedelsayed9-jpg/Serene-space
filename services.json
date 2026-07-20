@@ -1,0 +1,28 @@
+[
+    {
+      "title": "Shipping",
+      "description": "Free worldwide shipping(Free delivery for purchases over $5,000)",
+      "image": "icon2.png"
+    },
+    {
+      "title": "Ease of communication",
+      "description": "We provide customer service in all languages, around the clock.",
+      "image": "icon1.png"
+    },
+    {
+      "title": "Easy Returns",
+      "description": "Any product may be returned, provided that no more than 30 days have passed since the date of the invoice.",
+      "image": "icon3.png"
+    },
+    {
+        "title": "Repair",
+        "description": "We have the best repair technicians at all our branches.",
+        "image": "icon4.png"
+      },
+      {
+        "title": "Furniture assembly",
+        "description": "AInstallation for all our products is free and available at all branches..",
+        "image": "icon5.png"
+      }
+  ]
+  
