@@ -13,6 +13,7 @@ body {
     max-width: 100svw;
 
     font-family: "Cormorant Garamond", serif;
+     background-color:  #EFE8DD;
     /* font-family: "Poppins", sans-serif; */
     /* font-family:gromn; */
 }
@@ -347,7 +348,7 @@ p {
 
 .text-light-custom {
     color:#3e3127 ;
-    font-size: 1.70rem;
+    font-size: 1.30rem;
 }
 
 .btn-custom {
