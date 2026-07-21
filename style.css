@@ -363,6 +363,10 @@ p {
     color:#3e3127 ;
     font-size: 1.10rem;
 }
+.hg {
+    font-size: 56px;
+    font-weight: bold;
+}
 
 .btn-custom {
     background-color: #e1d8c7;
